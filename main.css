@@ -1,4 +1,4 @@
-/* Smooth scroll */
+
 html {
   scroll-behavior: smooth;
 }
@@ -6,7 +6,7 @@ html {
 #footer{
   background: #98d6ea;
 }
-/* color coding of cases */
+
 #case{
   border-radius: 25px;
   background: #98d6ea;
@@ -21,7 +21,7 @@ html {
   background: #ffb6b9;
 }
 
-/* paragraph font */
+
 html{
   font-family: 'Nunito', sans-serif;
 }
@@ -38,7 +38,7 @@ figcaption{
   font-size: 1.5em;
 }
 
-/* Footer */
+
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section {
     padding: 60px 0;
