@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+	    <meta charset="utf-8">
+	    <!-- Styling -->
+	    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <link rel="stylesheet" href="main.css">
+
+	    <!-- Script -->
+	    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+	    <script src="index.js"></script>
+
+
+	    <title>CoronaNepal</title>
+  </head>
+  <body>
+	    <!-- Navbar -->
+	        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top  p-3 pb-10">
+	        <a class="navbar-brand pl-5" href="#">NEPAL<img src="virus-solid.svg" width=30 height=30 alt="">CORONA</a>
+	        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	          <span class="navbar-toggler-icon"></span>
+	        </button>
+
+		        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		          <ul class="navbar-nav ml-auto pr-5">
+		            <li class="nav-item active">
+		              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		            </li>
+		            <li class="nav-item">
+		              <a class="nav-link" href="#aboutid">About</a>
+		            </li>
+		            <li class="nav-item">
+		              <a class="nav-link" href="#symptomsid">Symptoms</a>
+		            </li>
+		            <li class="nav-item">
+		              <a class="nav-link" href="#preventionid">Prevention</a>
+		            </li>
+		          </ul>
+		        </div>
+	      </nav>
+	    <!-- Navbar -->
+
+		<!-- updates -->
+		 <div class="container pt-5 ">
+			  <div class="section_header text-center mt-4">
+			    <h1>COVID-19 UPDATES</h1>
+			  </div>
+
+			  <div class="container">
+			    <div class="jumbotron text-center">
+				      <div class="">
+				        	<h2>WORLD</h2>
+				      </div>
+				      <div class="row">
+				        	<div class="col-lg-4 col-md-5 col-12  " id="case">
+				          		<p class="num" id="Wcase">0 </p>
+				          		<h3>Total Cases</h3>
+				        	</div>
+
+				        	<div class="col-lg-4 col-md-5 col-12 " id="heal">
+				          		<p class="num" id="Wheal">0</p>
+				          		<h3>Total Recovered</h3>
+				       		</div>
+
+					        <div class="col-lg-4 col-md-5 col-12 " id="dead">
+					          <p class="num" id="Wdead">0</p>
+					          <h3>Total Deaths</h3>
+					        </div>
+					   </div>
+				      <!-- Nepal Data -->
+				     <div class="mt-4">
+				        	<h2 align="center">NEPAL</h2>
+				      </div>
+				      <div class="row">
+				        	<div class="col-lg-4 col-md-5 col-12 " id="case">
+				          		<p class="num" id="Ncase">0</p>
+				          		<h3>Total Cases</h3>
+				        	</div>
+
+					        <div class="col-lg-4 col-md-5 col-12 " id="heal">
+					          <p class="num" id="Nheal">0</p>
+					          <h3>Total Recovered</h3>
+					        </div>
+
+					        <div class="col-lg-4 col-md-5 col-12 " id="dead">
+					          <p class="num" id="Ndead">0</p>
+					          <h3>Total Deaths</h3>
+					        </div>
+				      </div>
+			       </div>
+			   </div>
+		  </div>
+		<!-- Update-->
+
+
+
+  	<!-- links -->
+			<div class="container">
+			  <div class="row">
+			    <div class="col">
+			      <p><a href="#">Click to see all countries data.</a></p>
+			    </div>
+			    <div class="col">
+			      <p align="right">
+			        <a href="#" >Click to see Nepal interactive map.</a>
+			      </p>
+			    </div>
+			  </div>
+			</div>
+    <!-- links -->
+
+<!-- About Section -->
+	   <div class="container pt-5 pb-1" id="aboutid">
+       		<div class=" text-center mb-5 mt-4">
+         		<h1>About COVID-19</h1>
+	       	</div>
+
+
+
+	       <div class="row pt-5  jumbotron">
+		         <div class="col-lg-6 col-md-6 col-12">
+		           <img src="https://images.unsplash.com/photo-1583324113626-70df0f4deaab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80" alt="Corona" class="img-fluid">
+		         </div>
+		         <div class="col-lg-6 col-md-6 col-12">
+		           <h2>What is COVID-19?</h2>
+		           <p align="justify">COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019. COVID-19 is now a pandemic affecting many countries globally.</p>
+		           <p align="justify">Coronaviruses are a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS).</p>
+		         </div>
+	       </div>
+     </div>
+	<!-- About Section -->
+
+<!-- corona virus Symptoms -->
+     <div class="container pt-1 pb-1" id="symptomsid">
+	       <div class="text-center mb-5 mt-4">
+	         <h1>Symptoms</h1>
+	       </div>
+
+	       <div class="container">
+	         <div class="row jumbotron">
+	           
+	           <div class="col-lg-4 col-md-5 col-12 mt-5">
+	             <figure class="text-center">
+	               <img src="https://image.flaticon.com/icons/svg/2038/2038104.svg" alt="Fever" class="img-fluid" width="120" height="120">
+	               <figcaption>High Grade Fever</figcaption>
+	             </figure>
+	           </div>
+
+	             <div class="col-lg-4 col-md-5 col-12 mt-5">
+	               <figure class="text-center">
+	                 <img src="https://image.flaticon.com/icons/svg/2615/2615180.svg" alt="Cough" class="img-fluid" width="120" height="120">
+	                 <figcaption>Dry Cough</figcaption>
+	               </figure>
+	             </div>
+
+	               <div class="col-lg-4 col-md-5 col-12 mt-5">
+	                 <figure class="text-center">
+	                   <img src="https://image.flaticon.com/icons/svg/2038/2038101.svg" alt="Tiredness" class="img-fluid" width="120" height="120">
+	                   <figcaption>Tiredness</figcaption>
+	                 </figure>
+	               </div>
+
+	                 <div class="col-lg-4 col-md-5 col-12 mt-5">
+	                   <figure class="text-center">
+	                     <img src="https://image.flaticon.com/icons/svg/2038/2038338.svg" alt="Runny Nose" class="img-fluid" width="120" height="120">
+	                     <figcaption>Running Nose</figcaption>
+	                   </figure>
+	                 </div>
+
+	                 <div class="col-lg-4 col-md-5 col-12 mt-5">
+	                   <figure class="text-center">
+	                     <img src="https://image.flaticon.com/icons/svg/2038/2038042.svg" alt="SOB" class="img-fluid" width="120" height="120">
+	                     <figcaption>Difficuty Breathing</figcaption>
+	                   </figure>
+	                 </div>
+
+	                 <div class="col-lg-4 col-md-5 col-12 mt-5">
+	                   <figure class="text-center">
+	                     <img src="https://image.flaticon.com/icons/svg/2037/2037321.svg" alt="Body Ache" class="img-fluid" width="120" height="120">
+	                     <figcaption>Body Ache</figcaption>
+	                   </figure>
+	                 </div>
+	         	</div>
+	       </div>
+       </div>
+		<!-- corona virus Symptoms -->
+
+c
+		<div class="container pt-1 pb-1" id="preventionid">
+			  <div class="section_header text-center mb-5 mt-4">
+			    <h1>Prevention Against Corona Virus</h1>
+			  </div>
+
+			<div class="container">
+			    <div class="row jumbotron ">
+
+			       <div class="col-lg-4 col-md-4 col-12 mt-5">
+			         <div class="row">			           
+			           <div class="col-lg-4 col-md-4 col-12">
+			             <figure class="text-center">
+			               <img src="https://image.flaticon.com/icons/svg/2707/2707432.svg" alt="Handwash" class="img-fluid" width="90" height="90">
+			             </figure>
+			           </div>
+			           <div class="col-lg-8 col-md-8 col-12">
+			             <p>Wash your hands often for at least 20 seconds with soap and water or alcohol based hand sanitizers.</p>
+			           </div>
+			         </div>
+			       </div>
+
+			       <div class="col-lg-4 col-md-4 col-12 mt-5">
+			         <div class="row">
+			           <div class="col-lg-4 col-md-4 col-12">
+			             <figure class="text-center">
+			               <img src="https://image.flaticon.com/icons/svg/2731/2731265.svg" alt="Stay home" class="img-fluid" width="120" height="120">
+			             </figure>
+			           </div>
+			           <div class="col-lg-8 col-md-8 col-12">
+			             <p>Stay home. Do not go outside unless emergency.</p>
+			           </div>
+			         </div>
+			       </div>
+
+			       <div class="col-lg-4 col-md-4 col-12 mt-5">
+			         <div class="row">
+			           <div class="col-lg-4 col-md-4 col-12">
+			             <figure class="text-center">
+			               <img src="https://www.flaticon.com/premium-icon/icons/svg/2841/2841330.svg" alt="Social Distance" class="img-fluid" width="120" height="120">
+			             </figure>
+			           </div>
+			           <div class="col-lg-8 col-md-8 col-12">
+			             <p>Maintain a safe distance from others.</p>
+			           </div>
+			         </div>
+			       </div>
+
+			       <div class="col-lg-4 col-md-4 col-12 mt-5">
+			         <div class="row">
+			           <div class="col-lg-4 col-md-4 col-12">
+			             <figure class="text-center">
+			               <img src="https://www.flaticon.com/premium-icon/icons/svg/2841/2841330.svg" alt="Cough" class="img-fluid" width="120" height="120">
+			             </figure>
+			           </div>
+			           <div class="col-lg-8 col-md-8 col-12">
+			             <p>Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.</p>
+			           </div>
+			         </div>
+			       </div>
+
+
+
+			       <div class="col-lg-4 col-md-4 col-12 mt-5">
+			         <div class="row">
+			           <div class="col-lg-4 col-md-4 col-12">
+			             <figure class="text-center">
+			               <img src="https://image.flaticon.com/icons/svg/2806/2806661.svg" alt="Cough" class="img-fluid" width="120" height="120">
+			             </figure>
+			           </div>
+			           <div class="col-lg-8 col-md-8 col-12">
+			             <p>Don’t touch your eyes, nose or mouth.</p>
+			           </div>
+			         </div>
+			       </div>
+
+			       <div class="col-lg-4 col-md-4 col-12 mt-5">
+			         <div class="row">
+			          <div class="col-lg-4 col-md-4 col-12">
+			             <figure class="text-center">
+			               <img src="https://image.flaticon.com/icons/svg/2231/2231046.svg" alt="Help" class="img-fluid" width="120" height="120">
+			             </figure>
+			           </div>
+			           <div class="col-lg-8 col-md-8 col-12">
+			             <p>If you have a fever, a cough, and difficulty breathing, seek medical attention.</p>
+			           </div>
+			         </div>
+			       </div>
+			   </div>
+		  </div>
+	  </div>
+<!-- Prevention -->
+
+<!-- Footer -->
+    <section id="footer">
+      <div class="container">
+	        <div class="row text-center text-xs-center text-sm-left text-md-left">
+	          <div class="col-xs-12 col-sm-4 col-md-4">
+	            <h5>Quick links</h5>
+	            <ul class="list-unstyled quick-links">
+	              <li><a href="#"><i class="fa fa-angle-double-right"></i>Home</a></li>
+	              <li><a href="#"><i class="fa fa-angle-double-right"></i>Countries Data</a></li>
+	              <li><a href="#"><i class="fa fa-angle-double-right"></i>Nepal Map</a></li>
+	              <li><a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+	              <li><a href="#"><i class="fa fa-angle-double-right"></i>Blog</a></li>
+	            </ul>
+	          </div>
+	          
+	          <div class="col-xs-12 col-sm-4 col-md-4">
+	            <h5>Quick links</h5>
+	            <ul class="list-unstyled quick-links">
+	              <li><a href="https://covid19.mohp.gov.np/#/"><i class="fa fa-angle-double-right"></i>Ministry of Health</a></li>
+	              <li><a href="https://www.who.int/nepal"><i class="fa fa-angle-double-right"></i>WHO</a></li>
+	              <li><a href="https://www.unicef.org/nepal/"><i class="fa fa-angle-double-right"></i>UNICEF</a></li>
+	              <li><a href="https://nepal.gov.np:8443/NationalPortal/view-page?id=31"><i class="fa fa-angle-double-right"></i>Hospital Contacts</a></li>
+	            </ul>
+	          </div>
+	          
+	          <div class="col-xs-12 col-sm-4 col-md-4">
+	            <h5>#STAY HOME <br>
+	               #STAY SAFE</h5>
+	          </div>
+	        </div>
+
+	        <div class="row">
+	          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+	           
+	            <p class="h6">© All right Reversed.<a class="text-green ml-2" href=#" target="_blank">Kiran Shrestha 2020</a></p>
+	          </div>
+	          <hr>
+	        </div>
+      </div>
+    </section>
+    	
+  </body>
+</html>
